@@ -1,0 +1,13 @@
+Class Dog:
+species="mammal"
+def_init_(self,name,age)
+self.name=name
+self.age=age
+def description(self)
+return"{} is{} year old".format(self.name,self.age)
+def speak(self,sound):
+def speak(self,sound):
+return"{} says {}".format(self.name,sound)
+Mikey=Dog(Mikey,6)
+print(Mikey.description()
+print(Mikey.speak("Gruff Gruff"))
